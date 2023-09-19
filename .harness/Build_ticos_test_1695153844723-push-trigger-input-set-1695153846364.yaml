@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ticos_test_1695153844723-push-trigger-input-set
+  identifier: Build_ticos_test_1695153844723pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ticos_test_1695153844723
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
