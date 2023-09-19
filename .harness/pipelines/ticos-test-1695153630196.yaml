@@ -25,8 +25,8 @@ pipeline:
                   timeout: ""
                   type: Run
               - step:
-                  identifier: echo-2
-                  name: echo-2
+                  identifier: echo2
+                  name: echo2
                   spec:
                     command: echo hello from github
                   timeout: ""
