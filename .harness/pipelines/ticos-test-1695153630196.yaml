@@ -24,6 +24,13 @@ pipeline:
                     command: echo hello world
                   timeout: ""
                   type: Run
+              - step:
+                  identifier: echo
+                  name: echo 2
+                  spec:
+                    command: echo hello from github
+                  timeout: ""
+                  type: Run
           platform:
             arch: Amd64
             os: Linux
